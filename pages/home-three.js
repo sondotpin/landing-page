@@ -3,7 +3,7 @@ import Head from "next/head";
 import { ThemeProvider } from "styled-components";
 
 import Navigation from "sections/Navigation";
-import BannerThree from 'sections/BannerThree'
+// import BannerThree from 'sections/BannerThree'
 import Service from "sections/Service";
 import CoinFund from "sections/CoinFund";
 import About from "sections/About";
@@ -31,7 +31,7 @@ const Home = () => {
 
       <GlobalStyle />
       <Navigation />
-      <BannerThree />
+      {/* <BannerThree /> */}
       <Service />
       <CoinFund />
       <About />

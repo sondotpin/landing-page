@@ -3,7 +3,7 @@ import React from "react";
 import { SlickSlider, SliderItem } from "reusecore/SlickSlider";
 import Banner from "sections/Banner";
 import BannerTwo from "sections/BannerTwo";
-import BannerThree from "sections/BannerThree";
+// import BannerThree from "sections/BannerThree";
 
 import BannerSliderWrapper from "./bannerSlider.style";
 
@@ -26,9 +26,9 @@ const BannerSlider = () => {
           <SliderItem>
             <BannerTwo />
           </SliderItem>
-          <SliderItem>
+          {/* <SliderItem>
             <BannerThree />
-          </SliderItem>
+          </SliderItem> */}
         </SlickSlider> 
     </BannerSliderWrapper>
   );

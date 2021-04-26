@@ -7,7 +7,7 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
   if (props.className) {
     addAllClasses.push(props.className);
   }
-  const onClickPresale = () => window.open("https://google.com")
+  const onClickPresale = () => window.open("https://app.bounce.finance/fixed-swap/6491")
   return (
     <ul className={addAllClasses.join(" ")}>
       {menuItems.map((menu, index) => (

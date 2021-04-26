@@ -52,7 +52,7 @@ const CoinFund = () => {
               </SectionTitle>
 
               <Box className="btn-wrapper">
-                <Link href="#">
+                <Link href="https://app.bounce.finance/fixed-swap/6491">
                   <a className="btn btn-fill">Presale</a>
                 </Link>
               </Box>

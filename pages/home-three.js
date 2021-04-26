@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Cryptik | Next gentrations react next landing page</title>
+        <title>Safe Pluto | Safe bring investor to Pluto</title>
         <meta name="Description" content="React next landing page" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />

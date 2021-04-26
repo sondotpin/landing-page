@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start": "next start",
+    "start": "next start -p 8000",
     "build": "next build && next export -o dist",
     "firebase-dev": "npm run dev:client & npm run dev:server",
     "firebase-dev:client": "next src/client",

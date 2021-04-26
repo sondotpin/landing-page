@@ -18,8 +18,9 @@ import {
 import CoinFundWrapper from "./coinFund.style";
 
 const CoinFund = () => {
-  const settings = { 
-    count: 32560,
+  const time = 1619665788 - Math.round(Date.now()/1000, 0);
+  const settings = {
+    count: time,
     showTitle: true,
     size: 60,
     labelSize: 14,
